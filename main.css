@@ -982,6 +982,35 @@ h2.title, .tab-content h2 {
 }
 
 
+
+
+/* Página do produto individual */
+
+.component.categoriesPath li.first {
+  background: transparent url("https://static.mercadoshops.com/static/images/themes/smoked/sprite.png") -88px -79px repeat;
+  padding: 0;
+}
+
+.component.categoriesPath li.first a {
+  display: block;
+  height: 16px;
+  text-indent: -9999px;
+  width: 16px;
+}
+
+
+.ch-g6-10, .ch-g4-10 {
+  float:left;
+  vertical-align: top;
+}
+
+.ch-g6-10 {
+  width: 60%;
+}
+.ch-g4-10 {
+  width: 40%;
+}
+
 /* Antigo .informacao-produto que contém a descrição do produto na página indivudla */
 article.component {
   overflow: hidden;

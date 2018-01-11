@@ -1,3 +1,4 @@
+﻿
 /*************************
 *******Typography******
 **************************/
@@ -980,41 +981,47 @@ h2.title, .tab-content h2 {
   left:0
 }
 
-.informacao-produto {
+
+/* Antigo .informacao-produto que contém a descrição do produto na página indivudla */
+article.component {
   overflow: hidden;
   padding: 0;
   position: relative;
   cursor: default;
 }
 
-.informacao-produto h2 {
+article.component h1.title {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   margin-top: 0;
 }
 
-.informacao-produto p {
+article.component .FbLikeButton {
+  margin: 0 0 10px 0;
+}
+
+article.component p {
   color: #696763;
   font-family: 'Roboto', sans-serif;
   margin-bottom: 5px;
 }
 
-.informacao-produto span {
+article.component span {
   display: inline-block;
   margin-bottom: 8px;
   margin-top: 18px;
 }
 
-.informacao-produto .nome {
+article.component .nome {
   color: #fff;
 }
-.informacao-produto .preco {
+article.component #price-vip {
   color: #efdd37;
-  font-size: 20px;
+  font-size: 25px;
 }
 
-.informacao-produto span span {
+article.component span span {
   color: #dd3a3a;
   float: left;
   font-family: 'Roboto', sans-serif;
@@ -1023,7 +1030,7 @@ h2.title, .tab-content h2 {
   margin-right: 20px;
   margin-top: 0px;
 }
-.informacao-produto span input {
+article.component span input {
   border: 1px solid #DEDEDC;
   color: #696763;
   font-family: 'Roboto', sans-serif;
@@ -1035,7 +1042,7 @@ h2.title, .tab-content h2 {
   width: 50px;
 }
 
-.informacao-produto span label {
+article.component span label {
   color: #696763;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -1043,7 +1050,7 @@ h2.title, .tab-content h2 {
 }
 
 
-.informacao-produto a.cart {
+article.component a.addCart {
   background: #34b749;
   border-radius: 4px;
   color: #FFFFFF;
@@ -1051,7 +1058,7 @@ h2.title, .tab-content h2 {
   font-size: 17px;
   margin: 5px 0 20px 0;
 }
-.informacao-produto a.cart:hover {
+article.component a.addCart:hover {
   background: #23822a;
 }
 
@@ -2516,6 +2523,20 @@ h2.title, .tab-content h2 {
 .nav > li > a:hover, .nav > li > a:focus {
   background: none; 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

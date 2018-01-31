@@ -1,4 +1,4 @@
-﻿/* autor: caioerick.com */
+/* autor: caioerick.com */
 /*************************
 *******Typography******
 **************************/
@@ -2581,6 +2581,10 @@ article.component a.addCart:hover {
 }
 .main.wrapper p {
   color: #fff;
+}
+
+.variation-container p {
+    color: #000;
 }
 
 .mainContent {
